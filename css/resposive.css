@@ -588,12 +588,13 @@
     ================== */
     .mainunam {
         height: auto;
+        width:100%;
         display: block;
         padding: 20px auto;
     }
     
     .ofer_img {
-        padding: 20px;
+        padding: 10px;
         margin: 20px 0;
     }
     
