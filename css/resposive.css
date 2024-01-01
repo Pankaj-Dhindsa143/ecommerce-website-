@@ -615,12 +615,13 @@
         Footer section
     ===================*/
     .footer-link-mainBox {
-        display: grid;
-        grid-template-columns: 2fr;
+        display: block;
+        width:95%;
+        margin:auto;
     }
 
     .fouter-grid div h3{
-        font-size: 16px;
+        font-size: 14px;
         margin:20px 0;
     }
 
