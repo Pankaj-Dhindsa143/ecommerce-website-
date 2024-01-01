@@ -513,7 +513,7 @@
 
 @media (max-width:330px){
     header ul li{
-        margin: 10px 8px;
+        margin: 10px 5px;
     }
     header ul li a{
         font-size: 15px;
@@ -538,8 +538,9 @@
        about page
     ================== */
     .about-cantner div img {
-        width:280px;
-        height: 350px;
+        width:200px;
+        height: 250px;
+        margin:10px auto;
     }
     .about-cantner-para h2 {
         font-size: 2.5rem;
