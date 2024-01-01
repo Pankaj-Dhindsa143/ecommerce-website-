@@ -296,7 +296,7 @@
    
 }
 
-@media (max-width:426px) {
+@media (max-width:430px) {
     span{
         color: #fff;
         font-size: 20px;
@@ -459,7 +459,7 @@
 }
 
 
-@media (max-width:376px) {
+@media (max-width:380px) {
     .shop_name {
         font-size: 20px;
     }
@@ -485,7 +485,7 @@
     }
 }
 
-@media (max-width:324px){
+@media (max-width:330px){
     header ul li{
         margin: 10px 8px;
     }
