@@ -1,0 +1,13 @@
+
+.shoping {
+    background-image: url(img/about-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+}
+

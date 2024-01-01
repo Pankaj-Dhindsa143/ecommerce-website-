@@ -1,0 +1,398 @@
+.about-section {
+    background-image: url(img/about-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-overyo {
+    position: absolute;
+    width: 100%;
+     height: 500px;
+    background-color: black;
+    opacity: .6;
+    
+}
+
+.about-section .about_para {
+    position: absolute;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-section .about_para h1{
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #fff;
+}
+/* ===============
+About-info section
+================== */ 
+.aboutinfo_box{
+    background-color: rgba(215, 240, 237, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.innerDiv{
+    background-color: #fff;
+    display:grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+}
+.innerDiv div{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.innerDiv div h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.innerDiv div p{
+    font-size:25px;
+    margin-right: 3rem;
+}
+
+.innerDiv img{
+    height:400px;
+}
+
+/* ===============
+  team section
+================== */ 
+.teambor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.teambor h2{
+    margin-top: 10rem;
+    font-size: 30px;
+}
+.teambor h1{
+    font-size: 50px;
+    margin: 20px 0;
+    color:  rgb(21, 236, 211);
+    border-bottom: 5px solid  rgb(21, 236, 211);
+}
+.teambor p{
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+.team_mamber{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.team_mamber div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(157, 224, 216, 0.5);
+    border: 3px solid rgb(26, 230, 206);
+}
+.team_mamber div img{
+    height: 80px;
+    width: 80px;
+   border-radius: 50%;
+}
+.team_mamber div h2{
+    margin: 50px 0 20px 0;
+}
+
+/* ===============
+  Follow section
+================== */
+.Follow-section {
+    background-image: url(img/about-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.Follow-overyo {
+    position: absolute;
+    width: 100%;
+     height: 500px;
+    background-color: black;
+    opacity: .6;
+    
+}
+
+.Follow_para{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    opacity: .9;
+}
+.Follow_para h1{
+    font-size: 50px;
+    color: #000;
+    font-family: Poppins;
+}
+.Follow_para i{
+    font-size: 30px;
+    margin:50px 10px;
+    color: #000;
+    padding: 3px;
+}
+.Follow_para i:hover{
+    font-size: 33px;
+    padding: 0;
+    margin:50px 11.5px;
+    color: #1cafd4;
+}
+
+
+@media (max-width:1025px){
+    
+  /*==================
+    about page start
+===================*/
+.aboutinfo_box{
+    padding: 50px 20px;
+}
+.innerDiv div{
+    padding: 10px;
+}
+.innerDiv div h1{
+    font-size: 40px;
+    margin:40px 0 20px 0;
+}
+.innerDiv div p{
+    font-size:20px;
+    margin-right: 5rem;
+}
+.innerDiv img{
+    height:300px;
+}
+/* ===============
+  team section
+================== */ 
+.team_mamber div{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(157, 224, 216, 0.5);
+    border: 3px solid rgb(26, 230, 206);
+}
+
+}
+
+@media (max-width:770px){
+     
+  /*==================
+    about page start
+===================*/
+.about-section {
+    height: 400px;
+}
+
+.about-overyo {
+     height: 400px;
+    
+}
+.about-section .about_para h1{
+    font-size: 50px;
+    
+}
+/* ===============
+About-info section
+================== */ 
+.innerDiv{
+ display: block;
+}
+.aboutinfo_box{
+    padding: 50px 20px;
+}
+
+.innerDiv img{
+    height:350px;
+}
+/* ===============
+  team section
+================== */ 
+.team_mamber div{
+    width: 200px;
+    height: 200px;
+}
+.teambor p{
+    width: 80%;
+}
+.team_mamber div img{
+    height: 50px;
+    width: 50px;
+   border-radius: 50%;
+}
+.team_mamber div h2{
+    margin: 50px 0 20px 0;
+    font-size: 24px;
+}
+/* ===============
+  Follow section
+================== */
+.Follow-section {
+    height: 400px;
+}
+
+.Follow-overyo {
+     height: 400px;
+}
+.Follow_para{
+    height: 400px;
+}
+.Follow_para h1{
+    font-size: 40px;
+}
+.Follow_para i{
+    font-size: 30px;
+}
+
+}
+
+@media (max-width:426px){
+      
+  /*==================
+    about page start
+===================*/
+.about-section {
+    height: 400px;
+}
+
+.about-overyo {
+     height: 400px;
+    
+}
+.about-section .about_para h1{
+    font-size: 50px;
+    
+}
+/* ===============
+About-info section
+================== */ 
+.innerDiv{
+ display: block;
+ padding: 10px;
+}
+.aboutinfo_box{
+    padding: 50px 10px;
+}
+
+.innerDiv img{
+    height:200px;
+}
+/* ===============
+  team section
+================== */ 
+.team_mamber{
+    display: block;
+}
+.team_mamber div{
+    width: 250px;
+    height: 250px;
+}
+.teambor h2{
+    margin-top:5rem;
+}
+.teambor p{
+    width: 95%;
+   
+}
+.team_mamber div img{
+    height: 70px;
+    width: 70px;
+}
+/* ===============
+  Follow section
+================== */
+.Follow_para{
+    width: 300px;
+}
+
+}
+
+@media (max-width:322px){
+    
+     /* ===============
+       about page
+    ================== */
+    .innerDiv img{
+        height:200px;
+    }
+    /* ===============
+  team section
+================== */ 
+.teambor h2{
+    margin-top: 10rem;
+    font-size: 20px;
+}
+.teambor h1{
+    font-size: 30px;
+    margin: 20px 0;
+    color:  rgb(21, 236, 211);
+    border-bottom: 5px solid  rgb(21, 236, 211);
+}
+.teambor p{
+    font-size: 15px;
+    width: 60%;
+    text-align: center;
+}
+/* .team_mamber div{
+    width: 200px;
+    height: 300px;
+} */
+.Follow_para{
+    width:250px;
+}
+.Follow_para h1{
+    font-size: 40px;
+    color: #000;
+    font-family: Poppins;
+}
+.Follow_para i{
+    font-size: 20px;
+    margin:50px 10px;
+    color: #000;
+    padding: 3px;
+}
+.Follow_para i:hover{
+    font-size: 23px;
+    padding: 0;
+    margin:50px 11.5px;
+    color: #1cafd4;
+}
+}

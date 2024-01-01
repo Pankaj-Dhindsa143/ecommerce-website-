@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Inter&family=Kdam+Thmor+Pro&family=Playfair+Display:ital@1&family=Poppins:wght@500&family=Roboto:ital,wght@0,500;1,300&family=Vina+Sans&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: #3D3028;
+}body{
+    overflow-x: hidden;
+}
+.loder{
+    width: 100%;
+    height: 100vh;
+   
+    position: fixed;
+    z-index: 9999;
+}
+.loder-box{
+    z-index: 9999999;
+    width:100%;
+    height: 100vh;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+span{
+    color: #fff;
+    font-size: 25px;
+}
+.ring{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+border-radius: 50%;
+}
+.ring:nth-child(1){
+    border-bottom: 8px solid rgb(68, 236, 35);
+    border-left: 8px solid rgb(68, 236, 35);
+    animation: rotate1 2s linear infinite;
+}
+.ring:nth-child(2){
+    border-bottom: 8px solid rgb(37, 24, 226);
+    border-left: 8px solid rgb(37, 24, 226);
+    animation: rotate2 2s linear infinite;
+}
+
+
+@keyframes rotate1 {
+    0%{
+        transform: rotateX(60deg) rotateY(40deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(60deg) rotateY(40deg) rotateZ(360deg);
+    }
+}
+@keyframes rotate2 {
+    0%{
+        transform: rotateX(55deg) rotateY(155deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(55deg) rotateY(155deg) rotateZ(360deg);
+    }
+}
+
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #3D3028;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.shop_name {
+    border-bottom: 2px solid #3D3028;
+    padding: 5px;
+}
+
+header ul {
+    width: auto;
+}
+
+header ul li {
+    margin: 10px 20px;
+    float: left;
+    list-style: none;
+}
+header ul li a{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+.sticky {
+    position: fixed;
+    top: 0%;
+    z-index: 9999;
+    box-shadow: 2px 6px 8px black;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+main {
+    position: relative;
+
+}
+ /* ===============
+   Slider section
+================== */
+.sliders {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    /* margin-top: 200px; */
+}
+
+.slide {
+
+    height: 100%;
+    width: 100%;
+    display: none;
+    font-size: 80px;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.Active {
+
+    display: block;
+}
+
+.indi {
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    width: 100%;
+}
+
+.indi ul {
+    margin: 0 auto;
+    width: 150px;
+
+}
+
+.indi ul li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0px 5px;
+    float: left;
+    list-style: none;
+}
+
+.Active_indi {
+    background-color: #fff;
+}
+
+
+/* ===============
+   manu section
+================== */
+.manu {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px 0;
+}
+
+.mainDiv {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: rgb(0, 0, 0)0px 3px 6px, rgb(0, 0, 0, 0.23)0px 3px 6px;
+}
+
+.mainDiv img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/* ===============
+   about page
+================== */
+.about-cantner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cantner-para {
+    padding: 0 11rem 0 0;
+}
+
+.about-cantner-para h6 {
+    color: orange;
+    font-size: 15px;
+    letter-spacing: 1.7px;
+}
+
+.about-cantner-para h2 {
+    font-size: 3rem;
+    color: black;
+    margin: 1.5rem 0;
+}
+
+.about-cantner-para p {
+    font-size: 22px;
+    margin-bottom: 3rem;
+}
+
+.about-cantner-para a {
+    border-bottom: 2px solid orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+.elementor-element {
+    --widgets-spacing: 20px;
+
+}
+/* ===============
+   brand_element-populated
+================== */
+.brand_element-populated {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px 50px;
+    margin: 10px 0;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #3D3028;
+}
+
+
+
+
+/* ===============
+  shoes-Organic-made
+================== */
+.shoes-Organic-made {
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.shoes-made-container {
+    width: 100%;
+    background-color: rgb(150, 150, 211, .5);
+    display: block;
+}
+
+.shoes-made-heading {
+    font-size: 25px;
+    font-style: Poppins;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.shoes-made-para-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoes-made-container-para {
+    width: 80%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.shoes-made-container-para p {
+    text-align: center;
+}
+
+
+.shoes-Organic-made-cantaner {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    padding: 3rem 0;
+}
+.shoes-Organic-left,
+.shoes-Organic-right {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+    padding: 20px 60px 10px 0;
+}
+
+.shoes-Organic-right {
+    padding: 20px 0 10px 60px;
+    
+}
+
+.shoes-Organic-left-box {
+    border-bottom: 1px solid rgb(100, 70, 42, .5);
+}
+
+.shoes-Organic-left-box h6 {
+    color: orange;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.shoes-Organic-left-box h4 {
+    font-size: 25px;
+    font-style: Poppins;
+    margin: 10px 0;
+}
+
+.shoes-Organic-left-box p {
+    font-size: 20px;
+    font-style: Poppins;
+    margin: 10px 0;
+}
+
+
+/* ===============
+   product-continer section
+================== */
+
+.cratData {
+    height: 680px;
+    position: sticky;
+    top: 100px;
+    box-shadow: rgb(0, 0, 0)0px 3px 6px, rgb(0, 0, 0, 0.23)0px 3px 6px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.cratData::-webkit-scrollbar {
+    display: none;
+}
+
+.product-continer {
+    display: grid;
+    grid-template-columns: 9fr 4fr;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-div {
+    background-color: #fff;
+    width: 250px;
+    box-shadow: rgb(0, 0, 0)0px 3px 6px, rgb(0, 0, 0, 0.23)0px 3px 6px;
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-div img {
+    height: 250px;
+    width: 250px;
+}
+
+.addbtn_ele {
+    background-color: aquamarine;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 60px;
+    font-size: 20px;
+}
+
+.productTitile {
+    width: 100%;
+    margin: 15px 0 10px 0;
+    height: 20px;
+    overflow: hidden;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.cart-styling {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartimgelm2 {
+    width: 70px;
+}
+
+.cartPrice {
+    color: black;
+    font-size: 20px
+}
+
+.p123 {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+li i {
+    position: relative;
+}
+
+.Dynamic-count {
+    padding: 2px 5px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 12px;
+    font-style: Poppins;
+    top: -10px;
+    right: -8px;
+}
+
+.totelPrice {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+
+}
+
+.total {
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.totelPrice button {
+    padding: 3px 10px;
+    border: none;
+    background-color: aquamarine;
+}
+
+
+
+/* ===============
+   info section
+================== */
+.skils-info {
+    background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+.skils-overyo {
+    position: absolute;
+    width: 100%;
+     height: 500px;
+    background-color: blue;
+    opacity: .3;
+    
+}
+
+.skils-info .skils_para {
+    position: absolute;
+    width: 55%;
+    padding: 5rem;
+}
+.skils_para h5{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.skils_para h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.skils_para p{
+    color: #fff;
+    font-size: 18px;
+}
+.skils_para h3{
+    color:#fff;
+    font-size: 25px;
+    margin: 20px 0 40px 0;
+}
+.skils_para a{
+    padding: 10px 30px;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ===============
+  mainunam section
+================== */
+.mainunam {
+    height: 400px;
+    border: 20px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.ofer_img {
+    box-shadow: rgb(0, 0, 0)0px 3px 6px, rgb(0, 0, 0, 0.23)0px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ofer_img img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.elementor-image-box-title {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color: black;
+
+}
+
+
+/*==================
+    Footer section
+===================*/
+.footer , .footer-box{
+    width: 100%;
+    height: 400px;
+    color: #000;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.footer-box{
+    display: flex;
+    align-items: center;
+   
+}
+.footer-link-mainBox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.footer-boxes{
+    padding: 20px 0 20px 40px;
+}
+.footer-boxes h1{
+    font-size: 27px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+.footer-boxes h3{
+    margin-top: 2rem;
+    font-size: 22px;
+}
+.footer-boxes .widget-title{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.footer-boxes ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+.footer-boxes ul li .menu-link{
+    text-decoration: none;
+    font-size: 17px;
+    opacity: .7;
+}
+
+.footer-boxes form input{
+    padding: 10px ;
+    font-size: 15px;
+}
+.wpforms-submit{
+    background-color:aquamarine;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color:#000;
+}
+
+
+.footer-2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+   
+}
+.fouter-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.fouter-box-3{
+    text-align: end;
+}
+.fouter-box-3 i{
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 50%;
+}
+.fouter-box-3 i:hover{
+    color: aquamarine;  
+    border: 2px solid aquamarine;
+    background-color: #000;
+}
+
+
+
+
+/* .div {
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 8.7fr 3.3fr;
+    position: relative;
+}
+
+.main_cantiner {
+    width: 100%;
+    height: 2000px;
+}
+
+.order_page {
+    width: 100%;
+    height: 540px;
+    position: sticky;
+    top: 100px;
+    padding: 10px;
+}
+
+.items-box {
+    height: 475px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.items-box::-webkit-scrollbar {
+    display: none;
+}
+
+.items-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.items-list img {
+    width: 60px;
+}
+
+.totel-box {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    border: none;
+    border-top: 2px solid black;
+    padding: 20px;
+}
+
+.images {
+    height: 300px;
+} */

@@ -1,0 +1,371 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(200, 235, 223, 0.3) , #fff) ;
+}
+.concat-section {
+    background-image: url(img/c-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.concat-overyo {
+    position: absolute;
+    width: 100%;
+     height: 400px;
+    background-color: black;
+    opacity: .6;
+    
+}
+
+.concat-section .concat_para {
+    position: absolute;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.concat-section .concat_para h1{
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #fff;
+}
+
+
+/* ===============
+  help-concat section
+================== */
+
+
+.help-concat{
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.help-concat h2{
+    font-size: 30px;
+    margin: 50px 0 20px 0;
+}
+.help-concat h1{
+    font-size: 50px;
+    font-family: poppins;
+}
+.help-concat div{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.help-concat .help-infoBox{
+    height: 250px;
+    width:350px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 30px;
+}
+.help-concat .help-infoBox h2{
+    font-size: 35px;
+    font-family: roboto;
+    margin: 20px 0 10px 0;
+}
+.help-concat .help-infoBox p{
+    font-size: 20px;
+}
+.help-concat .help-infoBox a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+
+
+
+
+/* ===============
+  concat section
+================== */
+.concatform{
+    width: 100%;
+    padding: 7rem;
+}
+.concatform .concat-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.concat-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.concat-left h3{
+    font-size: 28px;
+    font-family: roboto;
+}
+.concat-left h1{
+    font-size: 43px;
+    font-family: poppins;
+    margin:10px 0 30px 0;
+}
+.concat-left p{
+    font-size: 23px;
+    margin-right:5rem;
+}
+
+
+
+.CONTACT{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 50px;
+    
+}
+.CONTACT form input{
+    font-size: 20px;
+    padding:17px 10px;
+    width:100%;
+    margin-top: 30px;
+    border:2px solid rgba(97, 92, 92, 0.5);
+    font-family: poppins;
+}
+.CONTACT form textarea{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: poppins;
+    padding: 10px;
+}
+
+
+form .concatBtn {
+    width: 37%;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #6883BC;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin: 20px 10px 0px 30%;
+    padding: 8px;
+    transition: .3s ease-in-out;
+}
+
+form .concatBtn:hover {
+    border: none;
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+}
+
+
+@media (max-width:1025px){
+    /* ===============
+  help-concat section
+================== */
+.help-concat div{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+/* ===============
+  concat section
+================== */
+.concatform{
+    padding: 2rem;
+}
+.CONTACT form input{
+    font-size: 18px;
+    padding:10px 10px;
+    margin-top: 30px;
+}
+.CONTACT form textarea{
+    font-size: 18px;
+}
+form .concatBtn {
+    width: 45%;
+    font-size: 20px;
+    margin: 20px 10px 0px 27%;
+    padding: 8px;
+    transition: .3s ease-in-out;
+}
+
+
+}
+
+@media (max-width:770px){
+    .concat-section .concat_para h1{
+        font-size: 50px;
+    }
+    /* ===============
+  help-concat section
+================== */
+.help-concat h2{
+    font-size: 25px;
+    margin: 50px 0 20px 0;
+}
+.help-concat h1{
+    font-size: 40px;
+    font-family: poppins;
+}
+.help-concat .help-infoBox{
+    height: 220px;
+    width:300px;
+}
+.help-concat .help-infoBox h2{
+    font-size: 30px;
+}
+.help-concat .help-infoBox p{
+    font-size: 18px;
+    
+}
+.help-concat .help-infoBox a{
+    font-size: 20px;
+}
+/* ===============
+  concat section
+================== */
+.concat-left p{
+    margin-right:1rem;
+}
+    .concatform .concat-grid{
+        display: block;
+        text-align: center;
+        gap: 0px;
+    }
+    form .concatBtn {
+        width: 37%;
+        font-size: 25px;
+        font-weight: 400;
+        background-color: #6883BC;
+        color: black;
+        border: none;
+        border-radius: 4px;
+        margin: 20px 10px 0px 0%;
+        padding: 8px;
+        transition: .3s ease-in-out;
+    }
+    
+}
+@media (max-width:426px){
+    .concat-section .concat_para h1{
+        font-size: 40px;
+    }
+
+    /* ===============
+  help-concat section
+================== */
+.help-concat h2{
+    font-size: 20px;
+    margin: 50px 0 20px 0;
+}
+.help-concat h1{
+    font-size: 40px;
+    font-family: poppins;
+}
+
+    .help-concat div{
+        display:block;
+    }
+/* ===============
+  concat section
+================== */
+.concatform{
+    border-bottom: 2px solid #000;
+    padding: 7rem 0;
+}
+.concat-left h3{
+    font-size: 22px;
+}
+.concat-left h1{
+    font-size: 30px;
+}
+.concat-left p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+.CONTACT form input{
+    font-size: 15px;
+}
+.CONTACT form textarea{
+    font-size: 15px;
+}
+
+
+form .concatBtn {
+    width: 60%;
+    /* font-size: 25px; */
+}
+
+}
+
+@media (max-width:375px){
+    .concat-section {
+        height: 300px;
+        background-attachment: scroll;
+    }
+    .concat-overyo {
+         height: 300px;
+        
+    }
+
+    .help-concat h1{
+        font-size: 30px;
+        font-family: poppins;
+    }
+    form .concatBtn {
+        width: auto;
+    }
+}
+
+
+@media (max-width:325px){
+    .concat-left h3{
+        font-size: 18px;
+
+    }
+    .concat-left h1{
+        font-size: 25px;
+    }
+    
+.concat-left p{
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+
+.CONTACT{
+    padding: 20px 10px;
+}
+.CONTACT form textarea,
+.CONTACT form input{
+    margin-top: 20px;
+}
+form .concatBtn {
+    font-size: 20px;
+}
+
+
+
+}

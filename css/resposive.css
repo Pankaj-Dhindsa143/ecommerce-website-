@@ -1,0 +1,591 @@
+@media (max-width:1025px) {
+
+    /* ===============
+   manu section
+================== */
+    .mainDiv {
+        width: 180px;
+        height: 180px;
+    }
+
+    .mainDiv img {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* ===============
+   about page
+================== */
+
+    .about-cantner-para {
+        padding: 0 12rem 0 1rem;
+    }
+
+    .about-cantner-para h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-cantner-para p {
+        font-size: 18px;
+    }
+
+    /* ===============
+   brand_element-populated
+================== */
+    .brand_element-populated {
+        gap: 10px;
+        padding: 20px 0px;
+        font-size: 25px;
+    }
+
+    /* ===============
+  shoes-Organic-made
+================== */
+    .shoes-Organic-made-cantaner {
+        display: block;
+        padding: 0rem 0;
+    }
+
+    .shoes-Organic-left,
+    .shoes-Organic-right {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 0px 10px 0;
+        text-align: center;
+        gap: 30px;
+
+
+    }
+
+    .shoes-Organic-left-box {
+        margin-bottom: 20px;
+    }
+
+    /* ===============
+   product-continer section
+================== */
+    .product-continer {
+        display: block;
+    }
+
+    .cratData {
+        display: none;
+    }
+
+    /* ===============
+  mainunam section
+================== */
+    .elementor-image-box-title {
+        font-size: 18px;
+
+    }
+
+    /*==================
+    Footer section
+===================*/
+    .fouter-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+}
+
+
+@media (max-width:770px) {
+    header ul li a{
+        font-size: 20px;
+
+    }
+    .manu {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        overflow-x: scroll;
+        gap: 20px;
+
+    }
+
+    .mainDiv {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .mainDiv img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* ===============
+   about page
+================== */
+    .about-cantner div img {
+        width: 340px;
+        height: 500px;
+    }
+
+    .about-cantner-para {
+        padding: 0 1rem 0 0;
+    }
+
+    .about-cantner-para h2 {
+        font-size: 2rem;
+        color: black;
+        margin: 1.5rem 0;
+    }
+
+    /* ===============
+   brand_element-populated
+================== */
+    .brand_element-populated {
+        margin: 0px 0;
+        gap: 1px;
+        font-size: 30px;
+    }
+
+    .brand_element-populated div div img {
+        width: 120px;
+    }
+
+    /* ===============
+  shoes-Organic-made
+================== */
+    .shoes-Organic-made {
+        padding: 2rem 1rem;
+    }
+
+    .shoes-made-heading {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    .shoes-made-container-para {
+        font-size: 18px;
+    }
+
+    .shoes-Organic-made-cantaner {
+        padding: 0rem 0;
+    }
+
+    .shoes-Organic-left-box h6 {
+        margin-top: 10px;
+    }
+
+    .shoes-Organic-left-box h4 {
+        font-size: 22px;
+    }
+
+    .shoes-Organic-left-box p {
+        font-size: 18px;
+    }
+
+    .shoes-Organic-made-cantaner div img {
+        height: 400px;
+        width: 450px;
+        margin-left: 100px;
+    }
+
+    /* ===============
+   product-continer section
+================== */
+    .main-div {
+        width: 200px
+    }
+
+    .main-div img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .addbtn_ele {
+        margin-top: 10px;
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+
+    /* ===============
+   info section
+================== */
+    .skils-info .skils_para {
+        position: absolute;
+        width: 55%;
+        padding: 5rem 2rem;
+    }
+
+    .skils_para p {
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+    .skils_para h2 {
+        font-size: 35px;
+    }
+
+    .skils_para h5 {
+        font-size: 20px;
+    }
+
+    .skils_para h3 {
+        font-size: 21px;
+    }
+
+    /* ===============
+  mainunam section
+================== */
+    .mainunam {
+        height: 250px;
+        border: 0px solid red;
+        padding: 10px 20px;
+    }
+
+    .ofer_img {
+        padding: 10px;
+    }
+
+    .ofer_img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .elementor-image-box-title {
+        text-align: center;
+        font-size: 15px;
+        margin: 10px 0;
+        color: black;
+    }
+
+    /*==================
+    Footer section
+===================*/
+    .footer,
+    .footer-box {
+        height: 300px;
+    }
+
+    .footer-boxes h1 {
+        font-size: 24px;
+    }
+
+    .footer-boxes h3 {
+        font-size: 18px;
+    }
+
+    .footer-boxes .widget-title {
+        font-size: 20px;
+    }
+
+    .footer-boxes ul li .menu-link {
+        text-decoration: none;
+        font-size: 13px;
+        opacity: .7;
+    }
+
+    .footer-boxes form input {
+        padding: 10px;
+        font-size: 13px;
+        width: 90%;
+    }
+
+
+    .footer-2 {
+        padding: 0 1rem;
+    }
+
+    .wpforms-submit {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+   
+}
+
+@media (max-width:426px) {
+    span{
+        color: #fff;
+        font-size: 20px;
+    }
+    .ring{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+    border-radius: 50%;
+    }
+    .ring:nth-c
+    .shop_name {
+        font-size: 20px;
+    }
+
+    header ul li a{
+        font-size: 15px;
+    }
+
+    /* ===============
+   Slider section
+================== */
+    .sliders {
+        display: none;
+    }
+
+
+    /* ===============
+       about page
+    ================== */
+    .about-cantner {
+        display: block;
+    }
+   
+    .about-cantner div img {
+        width:390px;
+        height: 450px;
+    }
+
+    .about-cantner-para {
+        padding: 0 1rem 0 10px;
+    }
+
+    .about-cantner-para h6 {
+       margin-top: 20px;
+        letter-spacing: 1px;
+    }
+
+    /* ===============
+       brand_element-populated
+    ================== */
+    .brand_element-populated {
+        display: none;
+    }
+
+    /* ===============
+      shoes-Organic-made
+    ================== */
+    .shoes-Organic-made {
+        padding: 2rem 1rem;
+    }
+
+    .shoes-made-heading {
+        font-size: 18px;
+    }
+
+    .shoes-made-container-para {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .shoes-Organic-left,
+    .shoes-Organic-right {
+       display: block;
+        text-align: center;
+    }
+
+    .shoes-Organic-left-box {
+        margin-bottom: 20px;
+    }
+    .shoes-Organic-made-cantaner div img {
+        height: 200px;
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    /* ===============
+       product-continer section
+    ================== */
+    .main-div {
+        width: 150px;
+        padding: 5px 0px;
+    }
+
+    .main-div img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .addbtn_ele {
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+
+    /* ===============
+       info section
+    ================== */
+    .skils-info {
+        display: none;
+    }
+
+    /* ===============
+      mainunam section
+    ================== */
+    .mainunam {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        height: 400px;
+        background: linear-gradient(to right, rgba(159, 233, 208, 0.6), rgb(126, 165, 151));
+        margin: 20px 0;
+    }
+
+    .ofer_img {
+        padding: 8px;
+        background-color: #fff;
+    }
+
+    /*==================
+        Footer section
+    ===================*/
+    .footer,
+    .footer-box {
+        width: 100%;
+        height: auto;
+        border-top: none;
+    }
+
+    .footer-link-mainBox {
+        display:block;
+        text-align: center;
+    }
+
+    .fouter-grid {
+        display: block;
+    }
+
+    .fouter-grid div {
+        text-align: center;
+    }
+
+    .fouter-box-3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-boxes form input{
+        margin-right: 40px;
+    }
+  
+}
+
+
+@media (max-width:376px) {
+    .shop_name {
+        font-size: 20px;
+    }
+
+    header ul li {
+        font-size: 15px;
+        margin: 10px 15px;
+    }
+
+    /* ===============
+       about page
+    ================== */
+    .about-cantner div img{
+        width: 340px;
+    }
+    .Follow-section,
+    .about-section {
+        background-attachment:scroll;
+    }
+    .innerDiv div p{
+        font-size:18px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:322px){
+    header ul li{
+        margin: 10px 8px;
+    }
+    header ul li a{
+        font-size: 15px;
+        font-weight: 600;
+        float: left;
+        text-decoration: none;
+        color: #000;
+    }
+    .mainDiv {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .mainDiv img {
+        width: 150px;
+        height: 150px;
+    }
+    .footer-boxes form input{
+        margin-right: 20px;
+    }
+     /* ===============
+       about page
+    ================== */
+    .about-cantner div img {
+        width:300px;
+        height: 370px;
+    }
+    .about-cantner-para h2 {
+        font-size: 2.5rem;
+        color: black;
+        margin: 1.5rem 0;
+    }
+    .about-cantner-para p {
+        margin-bottom: 2rem;
+    }
+    .about-cantner-para a {
+        margin-bottom: 2rem;
+    }
+    /* ===============
+      shoes-Organic-made
+    ================== */
+    .shoes-Organic-made-cantaner div img {
+        height: 200px;
+        width: 250px;
+        margin-left: 0px;
+    }
+
+
+/* ===============
+  shoes-Organic-made
+================== */
+.shoes-made-heading {
+    font-size: 20px;
+}
+.shoes-made-container-para {
+    width: 95%;
+    padding: 10px;
+}
+
+
+/* ===============
+       product-continer section
+    ================== */
+    .main-div {
+        width: 138px;
+        padding: 5px 0px;
+    }
+
+
+    /* ===============
+      mainunam section
+    ================== */
+    .mainunam {
+        height: 450px;
+    }
+
+    .ofer_img img {
+        width: 50px;
+        height: 50px;
+    }
+    .elementor-image-box-title {
+        font-size: 13.5px;
+    }
+    .elementor-image-box-description{
+        font-size: 15px;
+    }
+
+    /*==================
+        Footer section
+    ===================*/
+    .footer-link-mainBox {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    .fouter-grid div h3{
+        font-size: 16px;
+        margin:20px 0;
+    }
+
+}
