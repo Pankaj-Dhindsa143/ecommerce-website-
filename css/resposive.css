@@ -552,7 +552,7 @@
        product-continer section
     ================== */
     .main-div {
-        width: 138px;
+        width: 130px;
         padding: 5px 0px;
     }
 
@@ -561,20 +561,28 @@
       mainunam section
     ================== */
     .mainunam {
-        height: 450px;
+        height: auto;
+        display: block;
+        padding: 20px auto;
     }
-
+    
+    .ofer_img {
+        padding: 20px;
+        margin: 20px 0;
+    }
+    
     .ofer_img img {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
     }
+    
     .elementor-image-box-title {
-        font-size: 13.5px;
+        text-align: center;
+        font-size: 20px;
+        margin: 20px 0;
     }
-    .elementor-image-box-description{
-        font-size: 15px;
-    }
-
+    
     /*==================
         Footer section
     ===================*/
