@@ -464,9 +464,9 @@
         font-size: 20px;
     }
 
-    header ul li {
+    header ul li a{
         font-size: 15px;
-        margin: 10px 15px;
+        margin: 10px 10px;
     }
 
     /* ===============
