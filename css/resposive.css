@@ -485,7 +485,7 @@
     }
 }
 
-@media (max-width:328px){
+@media (max-width:324px){
     header ul li{
         margin: 10px 8px;
     }
@@ -512,8 +512,8 @@
        about page
     ================== */
     .about-cantner div img {
-        width:300px;
-        height: 370px;
+        width:280px;
+        height: 350px;
     }
     .about-cantner-para h2 {
         font-size: 2.5rem;
