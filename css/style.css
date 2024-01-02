@@ -526,7 +526,7 @@ li i {
     height: 400px;
     border: 20px solid #fff;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     padding: 10px 50px;
     align-items: center;
