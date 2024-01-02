@@ -93,8 +93,8 @@
 
 @media all and (max-width:770px) {
     header ul li a{
-        font-size: 20px;
-
+        font-size: 18px;
+        font-weight: 500;
     }
     .manu {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -313,6 +313,7 @@
 
     header ul li a{
         font-size: 15px;
+          font-weight: 500;
     }
 
     /* ===============
@@ -465,7 +466,7 @@
 
     header ul li a{
         font-size: 14px;
-        margin: 10px 5px;
+        margin: 10px 3px;
     }
 
     /* ===============
@@ -512,11 +513,11 @@
 
 @media all and (max-width:330px){
     header ul li{
-        margin: 10px 5px;
+        margin: 10px 3px;
     }
     header ul li a{
-        font-size: 15px;
-        font-weight: 600;
+        font-size: 13px;
+        font-weight: 500;
         float: left;
         text-decoration: none;
         color: #000;
