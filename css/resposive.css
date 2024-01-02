@@ -1,4 +1,4 @@
-@media (max-width:1028px) {
+@media all and (max-width:1028px) {
 
     /* ===============
    manu section
@@ -91,7 +91,7 @@
 }
 
 
-@media (max-width:770px) {
+@media all and (max-width:770px) {
     header ul li a{
         font-size: 20px;
 
@@ -296,7 +296,7 @@
    
 }
 
-@media (max-width:438px) {
+@media all and (max-width:438px) {
     span{
         color: #fff;
         font-size: 15px;
@@ -458,7 +458,7 @@
 }
 
 
-@media (max-width:380px) {
+@media all and (max-width:380px) {
     .shop_name {
         font-size: 20px;
     }
@@ -510,7 +510,7 @@
     }
     
 
-@media (max-width:330px){
+@media all and (max-width:330px){
     header ul li{
         margin: 10px 5px;
     }
