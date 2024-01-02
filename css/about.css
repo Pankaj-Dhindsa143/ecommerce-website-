@@ -172,7 +172,7 @@ About-info section
 }
 
 
-@media (max-width:1025px){
+@media all and (max-width:1025px){
     
   /*==================
     about page start
@@ -213,7 +213,7 @@ About-info section
 
 }
 
-@media (max-width:770px){
+@media all and (max-width:770px){
      
   /*==================
     about page start
@@ -284,7 +284,7 @@ About-info section
 
 }
 
-@media (max-width:426px){
+@media all and (max-width:426px){
       
   /*==================
     about page start
@@ -345,7 +345,7 @@ About-info section
 
 }
 
-@media (max-width:322px){
+@media all and (max-width:322px){
     
      /* ===============
        about page
