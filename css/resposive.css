@@ -299,15 +299,14 @@
 @media (max-width:438px) {
     span{
         color: #fff;
-        font-size: 20px;
+        font-size: 15px;
     }
     .ring{
         position: absolute;
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
     border-radius: 50%;
     }
-    .ring:nth-c
     .shop_name {
         font-size: 20px;
     }
